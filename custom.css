@@ -1,0 +1,53 @@
+.editor-widget,
+.codeActionMenuWidget,
+.monaco-list-rows,
+.monaco-button,
+.action-label,
+.suggest-input-container,
+.monaco-hover,
+.file-icon-themable-tree {
+    border-radius: 5px !important;
+}
+ 
+.context-view > div > div:nth-child(2) {
+    border-radius: 5px !important;
+}
+ 
+.quick-input-widget {
+    border-radius: 5px;
+    padding: 4px;
+    margin-top: 16px;
+}
+ 
+.monaco-editor .suggest-widget {
+    border-radius: 5px;
+    padding: 4px;
+}
+ 
+.suggest-details {
+    border-radius: 5px;
+}
+ 
+.parameter-hints-widget {
+    border-radius: 5px;
+}
+ 
+.notifications-list-container, .notification-toast-container, .notification-toast {
+    border-radius: 5px !important;
+}
+ 
+.monaco-list-row {
+    border-radius: 5px;
+}
+ 
+.codeActionMenuWidget {
+    border-width: 0px !important;
+}
+ 
+.file-icon-themable-tree {
+    overflow-x: hidden !important;
+}
+ 
+.margin-view-overlays {
+    padding-left: 8px;
+}
