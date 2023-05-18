@@ -2,6 +2,8 @@
 
 > **CAUTION:** This is by no means a finished "product." The instructions are quite hacky and may remain so until I create a proper extension (given the project recieves enough attention). An unfortunate side-effect of this is having to re-enable the script _every time you update VSCode_. Fortunately, it is very easy to re-enable the script, once you've already setup the files.
 
+![After](https://github.com/NabeelAhmed1721/vscode-rounded-ui/blob/main/screenshots/After.png)
+
 ## Instructions
 1. Install the extension: [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css).
 2. Edit the User Settings JSON file (<kbd>F1</kbd> &rarr; "user settings json"). Add the following rule:
@@ -33,3 +35,8 @@
 6. Press the button Restart Visual Studio Code in the popup.
 7. If VSCode complains about "Your Code installation appears to be corrupt. Please reinstall," you can safely ignore this message. Click the gear in the popup and press "Don't Show Again" to prevent it from showing again (at least until you update VSCode).
 8. If you do update VSCode, simply repeat steps (5, 6, 7).
+
+
+## TODO
+1. Fix file list elements (merge selected files edges into one... like how MacOS handles selecting multiple files in Finder).
+2. Fix buggy buttons that are in an extension's information page.
